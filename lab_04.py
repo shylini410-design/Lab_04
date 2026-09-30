@@ -3,3 +3,10 @@ b = float(input("Enter second number: "))
 
 print("Addition:", a + b)
 print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+
+if b!=0:
+    division = a/b 
+    print("Division=",division)
+else:
+    print("Division by zero is not possible")
